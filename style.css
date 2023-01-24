@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2? family= Fraunces:ital,opsz,wght@1,9..144,700 & family= Inter:wght@400;700 & family= Montserrat :wght@500;700 & família= Open+Sans:wght@400;700 &family= Outfit:wght@300;600;700 & display=swap');*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(180deg, #ffd452, #ded1b6);
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    width: 400px;
+    height: 90%;
+    overflow: hidden;
+    border-radius: 16px;
+    background-color: #f6ebdd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 20px #6c788e;
+}
+
+.image {
+    width: 100px;
+    margin-top: 15px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px #6c788e;
+}
+
+h1 {
+    font-size: 23px;
+    font-weight: 700px;
+    font-family: 'Open Sans';
+    margin-top: 0px;
+    color: #492408;
+    
+}
+
+.formulario {
+    margin: 20px;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+    
+}
+
+.input_padrao {
+    display: block;
+    width: 50%;
+    margin: 0 0 15px;
+	padding: 5px 25px;
+    border-radius: 5px;
+    border: none;
+   
+}
+
+.form {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.titulo {
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+
+.submit {
+    border-radius: 20px;
+    border: none;
+    background-color: #feae4b;
+    padding: 10px;
+    width: 100%;
+    font-weight: 300;
+    font-size: 15px;
+   cursor: pointer;
+}
+
+.submit:hover {
+    background: darkorange;
+}
+
+fieldset {
+    border: none;
+}
